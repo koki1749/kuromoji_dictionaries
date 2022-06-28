@@ -1,6 +1,6 @@
 {
     "functions": {
-      "api/app.py": {
+      "api/app.js": {
         "memory": 1024
     }
     },
