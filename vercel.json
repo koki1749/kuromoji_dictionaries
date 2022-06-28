@@ -1,0 +1,9 @@
+{
+    "functions": {
+      "api/app.py": {}
+    },
+    "rewrites": [
+        { "source": "/", "destination": "/api" },
+        { "source": "/:dict", "destination": "/dictionaries/:dict" }
+    ]
+}
